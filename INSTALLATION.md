@@ -1,7 +1,12 @@
 General Requirements:
 * Python 3.5.4 (installed via miniconda3)
 * Tensorflow 1.3.0 (installed via miniconda3)
-* Keras 2.0.6 (installed via miniconda3)
+* Keras 2.1.2 (**latest version from keras github**)
+
+**<< IMPORTANT >>** 
+
+Notice that Keras 2.0.6 is default installation of miniconda3. This will cause error when loading stored model. To upgrade keras version, please follow the instruction. And make sure it is ran under your environment.
+
 * Jupyter notebook with python3 kernel (see the configuration if you only have python2 kernel)
 
 
@@ -63,6 +68,21 @@ Make sure you run setup.py under tfenv environment and your miniconda python (in
 * python setup.py install 
 pip install git+git://github.com/fchollet/keras.git --upgrade
 
+
+## Upgrade Keras to the latest version (Keras 2.1.2)
+
+* Check your current version. If it is not the latest version, please upgrade by following instruction as follows
+```
+import keras
+keras.__version__
+```
+
+* Make sure you run this is ran under tfenv environment and your miniconda python (instead of default installation of python in server, for instance).
+
+```
+pip install git+git://github.com/fchollet/keras.git --upgrade
+
+```
 
 ## Configure backend before running keras
 
