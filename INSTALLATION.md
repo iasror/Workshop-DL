@@ -42,6 +42,7 @@ Otherwise:
 * conda install scikit-learn
 * conda install h5py
 * conda install matplotlib
+* pip install beautifulsoup4
 * pip install -U nltk
 
 run the following code to download all nltk_data in your $HOME directory
