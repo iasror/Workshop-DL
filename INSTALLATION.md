@@ -78,7 +78,7 @@ import keras
 keras.__version__
 ```
 
-* Make sure you run this is ran under tfenv environment and your miniconda python (instead of default installation of python in server, for instance).
+* Make sure you run this under tfenv environment and your miniconda python (instead of default installation of python in server, for instance).
 
 ```
 pip install git+git://github.com/fchollet/keras.git --upgrade
